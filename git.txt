@@ -1,0 +1,80 @@
+1. git init
+Descripción: Inicializa un nuevo repositorio de Git en el directorio actual.
+Ejemplo:
+    git init
+
+2. git clone
+Descripción: Clona un repositorio existente desde GitHub o cualquier otro repositorio remoto.
+Ejemplo:
+    git clone https://github.com/usuario/repo.git
+
+3. git status
+Descripción: Muestra el estado actual del repositorio, incluyendo archivos modificados, añadidos, y no rastreados.
+Ejemplo:
+    git status
+
+4. git add
+Descripción: Añade archivos al área de preparación (staging area) para ser confirmados.
+Ejemplo:
+    git add archivo.txt
+    git add . (para añadir todos los archivos)
+
+5. git commit
+Descripción: Guarda los cambios en el repositorio local con un mensaje que describe los cambios realizados.
+Ejemplo:
+    git commit -m "Mensaje descriptivo de los cambios"
+
+6. git push
+Descripción: Envía los cambios confirmados al repositorio remoto.
+Ejemplo:
+    git push origin main
+
+7. git pull
+Descripción: Descarga los cambios desde el repositorio remoto y los combina con tu rama local.
+Ejemplo:
+    git pull origin main
+
+8. git branch
+Descripción: Muestra las ramas existentes, crea una nueva rama o elimina una rama.
+Ejemplo:
+    git branch (muestra las ramas actuales)
+    git branch nueva-rama (crea una nueva rama)
+
+9. git checkout
+Descripción: Cambia entre ramas o revisiones específicas.
+Ejemplo:
+    git checkout nueva-rama (cambia a una rama existente)
+    git checkout -b nueva-rama (crea y cambia a una nueva rama)
+
+10. git merge
+Descripción: Combina los cambios de una rama en la rama actual.
+Ejemplo:
+    git merge rama-secundaria
+
+11. git log
+Descripción: Muestra el historial de commits del repositorio.
+Ejemplo:
+    git log
+
+12. git remote
+Descripción: Administra los repositorios remotos vinculados a tu repositorio local.
+Ejemplo:
+    git remote add origin https://github.com/usuario/repo.git (añade un repositorio remoto)
+    git remote -v (muestra los remotos configurados)
+
+13. git reset
+Descripción: Deshace cambios en el área de preparación o en commits específicos.
+Ejemplo:
+    git reset archivo.txt (quita un archivo del área de preparación)
+    git reset --hard HEAD (deshace todos los cambios locales no confirmados)
+
+14. git stash
+Descripción: Guarda temporalmente los cambios no confirmados para trabajar en otra cosa.
+Ejemplo:
+    git stash (guarda los cambios)
+    git stash apply (recupera los cambios guardados)
+
+15. git fetch
+Descripción: Descarga los cambios del repositorio remoto pero no los combina con tu rama local.
+Ejemplo:
+    git fetch origin

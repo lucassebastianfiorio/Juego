@@ -1,2 +1,10 @@
 COMILLA INVERTIDA: AltGr + } + espacio
 
+En JavaScript, `let`, `var` y `const` se utilizan para declarar variables, pero tienen diferencias importantes:
+
+- `var`: Es la forma más antigua de declarar variables. Tiene un alcance de función o global, lo que significa que una variable declarada con `var` está disponible en toda la función o en todo el script en el que se declara. Además, `var` permite la redeclaración de la misma variable dentro del mismo ámbito.
+
+- `let`: Introducido en ES6, `let` tiene un alcance de bloque, lo que significa que la variable solo está disponible dentro del bloque en el que se declara (por ejemplo, dentro de un bucle o una condición). No permite la redeclaración de la misma variable dentro del mismo ámbito.
+
+- `const`: También introducido en ES6, `const` se utiliza para declarar variables cuyo valor no debe cambiar. Al igual que `let`, `const` tiene un alcance de bloque. Una vez que se asigna un valor a una variable `const`, no se puede reasignar. Sin embargo, si la variable es un objeto o un array, sus propiedades o elementos pueden modificarse.
+
